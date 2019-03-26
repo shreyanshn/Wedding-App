@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form Bootstrap 3</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      <style type="text/css">
+          
+                     .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        .bd-pageheader {
+    padding: 2rem 15px;
+    margin-bottom: 1.5rem;
+    color: #cdbfe3;
+    text-align: center;
+    background-color: #43464B;
+}
+
+.bd-pageheader .container {
+    position: relative;
+}
+
+.bd-pageheader h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    font-size: 64px;
+}
+
+      </style>
+</head>
+
+<body>
+<br />
+
+        <div class="bd-pageheader">
+            <div class="container">
+                <h1>R.S.V.P.</h1>
+                <p class="lead" style="font-size: 24px; font-weight: 300;">
+                    Your kind response is requested by 5th June.
+                </p>
+            </div>
+        </div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" style="margin-bottom: 30px;">  <!--- Navbar-->
+             <div class="container">
+                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
+                     
+                    <a href="index.html" class="navbar-brand"><img src="" alt = "Samarpan weds Ritu" class="img-responsive"/></a>
+                </div>  <!--- End Navbar-header- -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                <a href="" class="btn btn-info navbar-btn navbar-right">RSVP</a>
+                     
+                 <ul class="nav navbar-nav">
+                     <li><a href="ganesh_pujan.html">Programmes</a></li>
+                     <li><a href="sangeet.html">Sangeet</a></li>
+                     <li><a href="wedding_ceremony.html">Wedding Ceremony</a></li>
+                     <li><a href="reception.html">Reception</a></li>
+
+                 </ul>
+                 </div>
+            </div>  <!---End Container-->
+       </nav>        
+
+<div class="inner contact" style="margin-top: 50px;">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="Feedback">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="number" name="number" id="number" required="required" class="form" placeholder="Contact Info" />
+                            <!--Number of people attending-->
+                            <input type="number" name="people" id="people" required="required" class="form" placeholder="No. of people" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                            
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
+                        <!-- Message -->
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
+                    </div>
+
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->  
+  
+</body>
+</html>
